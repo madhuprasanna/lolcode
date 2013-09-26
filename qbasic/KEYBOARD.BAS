@@ -1,0 +1,36 @@
+CLS
+10
+x$ = INKEY$
+
+SELECT CASE x$
+
+
+CASE "z"
+PLAY "a15"
+
+CASE "x"
+PLAY "b15"
+
+CASE "c"
+PLAY "c15"
+
+CASE "v"
+PLAY "d15"
+
+CASE "b"
+PLAY "e15"
+
+CASE "n"
+PLAY "f15"
+
+CASE "m"
+PLAY "g15"
+
+CASE "a"
+END
+
+END SELECT
+
+
+GOTO 10
+
